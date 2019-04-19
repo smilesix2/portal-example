@@ -1,0 +1,184 @@
+/* help */
+
+.help {
+	padding: 20px 0 10px;
+	text-align: center;
+	color: #fff;
+	background-color: #889EAB;
+}
+.hide-wrap{
+	display: none;
+}
+.help img {
+	width: 45vw;
+}
+
+.help li {
+	line-height: 1.5;
+}
+
+/* article */
+
+.article {
+	padding: 20px 0 10px;
+	text-align: center;
+}
+
+.article li {
+	line-height: 1.5;
+}
+
+/* login reset */
+
+#login ul {
+	position: static;
+	width: 80vw;
+	margin: 0 auto;
+	height: auto;
+	min-height: 236px;
+}
+
+#login ul li {
+	padding: 0;
+}
+
+#login ul li.tabs {
+	overflow: hidden;
+}
+
+#login ul li.tabs a {
+	float: left;
+}
+
+#login ul li .tab {
+	width: 33.33%;
+	height: 36px;
+	line-height: 18px;
+	font-size: 12px;
+}
+
+#login ul li .tab.active {
+	color: #1C8AB2;
+	border-color: #1C8AB2;
+}
+
+#login ul li .get-pwd-btn .get-pwd-btn-inner {
+	color: #1C8AB2;
+}
+
+.checkbox {
+	background-color: #1C8AB2;
+}
+
+.checkbox.unchecked {
+	background-color: #ccc;
+}
+
+#login ul .agreement-item {
+	float: none;
+	text-align: center;
+}
+
+input[type="text"], input[type="tel"], input[type="password"] {
+	margin-top: 10px;
+}
+
+#login ul li .get-pwd-btn {
+	top: 12px;
+	right: 4px;
+	width: auto;
+	min-width: 65px;
+}
+
+.form .btn {
+	margin: 20px auto 20px;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	background-color: #1C8AB2;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	cursor: pointer;
+	border: none;
+}
+
+/* wechat */
+
+#qrcode_zone {
+	width: 250px;
+	height: 250px;
+}
+
+#wechat_btn {
+	position: absolute;
+	left: -1000000px;
+}
+
+#main_content {
+	display: none;
+}
+
+@media screen and (max-width:400px) {
+	input[type="text"], input[type="tel"], input[type="password"] {
+		font-size: 12px;
+	}
+}
+
+
+
+.loader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	background-color: #889EAB;
+	opacity: 0.8;	
+}
+
+.loader-inner {
+	width: 220px;
+	height: 130px;
+	opacity: .88;
+	box-shadow: 0 1px 1px -1px #fff;
+	padding: 10px;
+	z-index: 9999999;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	border: 0;
+	margin-left: -120px;
+	margin-top: -48px;
+	background-color: #2a2a2a;
+	color: #fff;
+	text-shadow: 0 1px 0 #111;
+	background-clip: padding-box;
+	-webkit-background-clip: padding;
+	-webkit-border-radius: 5px;
+	border-radius: 5px
+}
+
+.icon-loading {
+	margin: 0 auto 10px;
+	background-color: #000;
+	display: block;
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background: url(../images/ajax-loader.gif);
+}
+
+.loader h1 {
+	font-size: 18px;
+	margin: 0;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 1px 0 #111;
+	font-weight: normal;
+}
+
